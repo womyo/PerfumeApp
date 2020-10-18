@@ -10,7 +10,7 @@ Intent를 이용하여 MainActivity와 secondActivity를 연결하여 intent.put
 아무 상품도 선택하지 않은 경우에는 Toast.makeText에 장바구니에 넣을 상품을 하나 이상 선택하라는 메세지를 띄어줍니다. 그리고 다음 페이지로 넘어가지 않게 return문을 써 주었습니다.
 상품을 선택한 후 바로 구매 버튼을 누르면 구매 페이지로 이동되게 구현하였습니다
 
-##두번째 화면: 장바구니 페이지
+## 두번째 화면: 장바구니 페이지
 LinearLayout을 사용하였습니다
 큰 LinearLayout안에 두가지 작은 LinearLayout을 만들어 그 안에 체크박스, 제품명, 가격을 horizontal로 넣어주었습니다
 상품 선택 페이지에서 넘겨준 정보를 받기 위해 getIntent()를 사용하였습니다
@@ -21,7 +21,7 @@ LinearLayout을 사용하였습니다
 홈 버튼을 누르면 상품 선택 페이지로 전환되게 구현하였습니다
 구매 버튼을 누르면 MainActivity에서와 같은 방법을 사용하여 구매 페이지로 전환되게 구현하였습니다
 
-##세번째 화면: 구매 페이지
+## 세번째 화면: 구매 페이지
 GridLayout을 사용하였습니다
 EditText를 사용하여 주소와 연락처 정보를 입력받았습니다
 선택된 정보를 thirdActivity에서 받아왔습니다
