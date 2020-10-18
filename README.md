@@ -31,5 +31,5 @@ EditText를 사용하여 주소와 연락처 정보를 입력받았습니다.
 ___
 실습환경   
 Android SDK: Android 10.0(Q)   
-Android AVD: Pixel 2 API 29
-갤럭시 S8 연동하여 실습도 해보았습니다
+Android AVD: Pixel 2 API 29   
+갤럭시 S8도 연동하여 실습 해보았습니다
