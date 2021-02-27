@@ -1,2 +1,2 @@
-# Mobile-Programming
-## Android studio, Perfume Recommendation App
+# Perfume Recommendation App
+## Android studio
