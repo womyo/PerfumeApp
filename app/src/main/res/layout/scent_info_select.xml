@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="20">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/citrus"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/scent_btn"
+                android:layout_margin="7dp"
+                android:fontFamily="@font/cafe24oneprettynight"
+                android:textSize="20dp"
+                android:text="시트러스"
+                android:drawableTop="@drawable/citrus2"
+                android:padding="10dp"/>
+
+            <Button
+                android:id="@+id/fruity"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/scent_btn"
+                android:layout_margin="7dp"
+                android:fontFamily="@font/cafe24oneprettynight"
+                android:textSize="20dp"
+                android:text="프루티"
+                android:drawableTop="@drawable/fruity2"
+                android:padding="10dp"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/woody"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/scent_btn"
+                android:layout_margin="7dp"
+                android:fontFamily="@font/cafe24oneprettynight"
+                android:textSize="20dp"
+                android:text="우디"
+                android:drawableTop="@drawable/woody2"
+                android:padding="10dp"/>
+
+            <Button
+                android:id="@+id/floral"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/scent_btn"
+                android:layout_margin="7dp"
+                android:fontFamily="@font/cafe24oneprettynight"
+                android:textSize="20dp"
+                android:text="플로랄"
+                android:drawableTop="@drawable/floral2"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/spicy"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/scent_btn"
+                android:layout_margin="7dp"
+                android:fontFamily="@font/cafe24oneprettynight"
+                android:textSize="20dp"
+                android:text="스파이시"
+                android:drawableTop="@drawable/spicy2"
+                android:padding="10dp"/>
+
+            <Button
+                android:id="@+id/fresh"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/scent_btn"
+                android:layout_margin="7dp"
+                android:fontFamily="@font/cafe24oneprettynight"
+                android:textSize="20dp"
+                android:text="프레쉬"
+                android:drawableTop="@drawable/fresh2"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/homebtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#FFEC46"
+            android:fontFamily="@font/cafe24oneprettynight"
+            android:textSize="20dp"
+            android:paddingBottom="5dp"
+            android:drawableBottom="@drawable/home" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

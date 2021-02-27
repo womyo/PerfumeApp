@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/citrus"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:visibility="gone"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/citrustxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="시트러스"
+            android:textColor="#3995DF"
+            android:textSize="30dp"
+            android:fontFamily="@font/cafe24oneprettynight" />
+
+        <TextView
+            android:id="@+id/citrusinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="감귤류의 향기를 특징으로 신선하고 상큼하며 가벼운 느낌"
+            android:visibility="visible"
+            android:fontFamily="@font/cafe24oneprettynight"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fruity"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:visibility="gone"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/fruitytxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="프루티"
+            android:textColor="#3995DF"
+            android:textSize="30dp"
+            android:fontFamily="@font/cafe24oneprettynight"/>
+
+        <TextView
+            android:id="@+id/fruityinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="복숭아, 딸기, 사과 메론, 파인애플, 바나나, 코코넛 등의 감귤 이외의 과일향"
+            android:visibility="visible"
+            android:fontFamily="@font/cafe24oneprettynight"
+            android:textSize="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/woody"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:visibility="gone"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/woodytxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="우디"
+            android:textColor="#3995DF"
+            android:textSize="30dp"
+            android:fontFamily="@font/cafe24oneprettynight"/>
+
+        <TextView
+            android:id="@+id/woodyinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="나무껍질, 목재 등 나무를 연상시키는 향으로 신록과 목재의 고상하고 은근한 느낌"
+            android:visibility="visible"
+            android:fontFamily="@font/cafe24oneprettynight"
+            android:textSize="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/floral"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:visibility="gone"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/floraltxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="플로랄"
+            android:textColor="#3995DF"
+            android:textSize="30dp"
+            android:fontFamily="@font/cafe24oneprettynight"/>
+
+        <TextView
+            android:id="@+id/floralinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="꽃이 발산하는 향을 이르며 장미, 쟈스민, 백합, 은방울꽃, 튜베로즈, 히아신스, 바이올렛 등이 있음"
+            android:visibility="visible"
+            android:fontFamily="@font/cafe24oneprettynight"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/spicy"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:visibility="gone"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/spicytxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/cafe24oneprettynight"
+            android:gravity="center"
+            android:text="스파이시"
+            android:textColor="#3995DF"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/spicyinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cafe24oneprettynight"
+            android:text="향신료가 가지는 자극적인 향이며 시나몬, 클로브, 너트맥, 카시아, 카다몬, 페퍼 등의 향"
+            android:textSize="20dp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fresh"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:visibility="gone"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/freshtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/cafe24oneprettynight"
+            android:gravity="center"
+            android:text="프레쉬"
+            android:textColor="#3995DF"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/freshinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cafe24oneprettynight"
+            android:text="깨끗하고 상쾌/상큼한 이미지를 주는 향이며 은방울꽃, 히야신스, 오렌지꽃 등의 자연스럽고 촉촉한 향"
+            android:textSize="20dp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/homebtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:background="#FFEC46"
+            android:drawableBottom="@drawable/home"
+            android:fontFamily="@font/cafe24oneprettynight"
+            android:paddingBottom="5dp"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+</LinearLayout>
