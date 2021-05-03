@@ -1,4 +1,4 @@
-# Perfume Recommendation App
+# Perfume Recommendation Application
 버전: Android Studio 4.0.1
 
 실행 환경   
